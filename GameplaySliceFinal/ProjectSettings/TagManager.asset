@@ -8,6 +8,8 @@ TagManager:
   - Object
   - Wall
   - SpeedBoost
+  - HiddenLedge
+  - LedgeReveal
   layers:
   - Default
   - TransparentFX
