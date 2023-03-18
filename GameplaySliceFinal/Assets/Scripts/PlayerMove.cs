@@ -50,7 +50,11 @@ public class PlayerMove : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        ControlPlayer();   
+        ControlPlayer();
+        if(Input.GetKey("escape"))
+        {
+            Application.Quit();
+        }
     }
     void ControlPlayer()
     {
@@ -166,7 +170,7 @@ public class PlayerMove : MonoBehaviour
         //Move player to a direction to the right or left quickly
     }
 
-    void DoubleJump()
+    void DoubleJump()//Try it out
     {
         
         //do it incase 
